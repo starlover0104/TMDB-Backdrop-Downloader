@@ -7,8 +7,6 @@ Prequisites
 - When downloaded, run `pip install -r requirements.txt` in cmd within the folder
 
 Notes:
-- In Backdrop V1, it will add the media name automatically at the start of the file name
-- In Backdrop V2, it will ask you what you want to name the media
-
+- For titles with brackets automatic naming may not work as expected at all, i hope to fix this in v2.0.0
 
 
