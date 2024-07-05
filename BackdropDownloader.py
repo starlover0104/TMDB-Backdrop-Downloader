@@ -1,8 +1,5 @@
-import requests
+import requests, sys, os, re
 from tqdm import tqdm
-import sys
-import os
-import re
 
 def search_media(api_key, query):
     try:
@@ -41,13 +38,10 @@ def get_tmdb_backdrops(api_key, media_id, media_type, language=None):
         return backdrops
     except requests.exceptions.RequestException as e:
         print(f"Error getting backdrops: {e}")
-        return []
     except ValueError as e:
         print(f"Error decoding JSON: {e}")
-        return []
     except Exception as e:
         print(f"Unexpected error getting backdrops: {e}")
-        return []
 
 def download_image(url, file_name):
     try:
