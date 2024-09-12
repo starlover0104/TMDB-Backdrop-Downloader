@@ -10,3 +10,9 @@
 
 # Notes
 - It automatically gets from the "English" section on TMDB.
+
+# Inquiries
+- Contact me via email at `starlover@starlover.online` if any issues occur
+
+
+
